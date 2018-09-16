@@ -4,10 +4,29 @@
     <meta charset="utf-8" />
     <title>Sprint 1: Hero video assignment</title>
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:900" rel="stylesheet">
   </head>
   <body>
 
-  <!-- place your code here -->
-
+  <article class="hero-video">
+    <div class="hero-text">
+      <h1>So much coding!</h1>
+    </div>
+    <video controls autoplay class="videoDesktop transparent">
+       <source src="./videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+       <source src="./videos/SampleVideo_1280x720_1mb.webm" type="video/webm">
+       <p>This browser doesn't support this video...</p>
+    </video>
+    <video controls autoplay class="videoTablet transparent">
+       <source src="./videos/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+       <source src="./videos/SampleVideo_720x480_1mb.webm" type="video/webm">
+       <p>This browser doesn't support this video...</p>
+     </video>
+     <video controls autoplay class="videoMobile transparent">
+       <source src="./videos/SampleVideo_360x240_1mb.mp4" type="video/mp4">
+       <source src="./videos/SampleVideo_360x240_1mb.webm" type="video/webm">
+       <p>This browser doesn't support this video...</p>
+     </video>
+   </article>
   </body>
 </html>
